@@ -45,7 +45,7 @@
     border-radius: 19px;
 }
 .sec-1-cont{
-     height: 520px;
+    height: 520px;
     background: url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/hero-bg.jpg') center/cover no-repeat;
     position: relative;
     
@@ -72,7 +72,7 @@
 .bg-button a{
     font-weight: 500;
     font-size: 15px;
-    width: 18%;
+    width: 20%;
     text-transform: uppercase;
     background: none;
     border: 2px solid goldenrod;
@@ -92,11 +92,56 @@
     text-align: center;
 }
 .row-icon i{
-    width: 16%;
+    width: 10%;
     border-radius: 100px;
     padding: 23px;
     background: goldenrod;
     color: white;
     font-size: 23px;
     text-align: center;
+}
+
+/* section-2 */
+.sec-2-cont{
+    height: 455px;
+    background: url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/about-bg.jpg') center/cover no-repeat;
+    position: relative;
+    
+}
+
+
+.sec-2-cont{
+    padding: 30px 0;
+}
+.sec-2-left-text{
+    /* gap: 10px;
+    align-items: center;
+    display: flex; */
+    list-style: none;
+}
+.sec-2-left-text h3{
+    color: white;
+    font-size: 29px;
+}
+.sec-2-left-text .p-itlic{
+    color: #616060;
+}
+.sec-2-left-text li{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.sec-2-left-text i{
+    color: goldenrod;
+}
+.sec-2-left-text span{
+    font-size: 15px;
+    color: silver;
+}
+.sec-2-left-text p{
+    font-size: 16px;
+    color: #c6c6c6b3;
+}
+.sec-2-right-image img{
+    border: 7px solid;
 }
