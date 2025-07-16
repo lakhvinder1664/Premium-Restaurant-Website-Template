@@ -145,3 +145,118 @@
 .sec-2-right-image img{
     border: 7px solid;
 }
+
+/* section-3 */
+section.sec-3 {
+    padding: 60px 0;
+    background: #161616;
+}
+.sec-3-text{
+    line-height: 30px;
+}
+.sec-3-cont{
+    padding: 40px 0;
+}
+.sec-3-text h3{
+    color: #494f54;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sec-3-text p{
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 36px;
+}
+.card-contain {
+    padding: 25px;
+    background: #0e0f0f;
+}
+.card-contain span{
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 35px;
+}
+.card-contain h3{
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+}
+.card-contain-para{
+    color: slategrey;
+    font-size: 13px;
+}
+
+/* section-4 */
+section.sec-4 {
+    padding: 60px 0;
+    background: #211f1f;
+}
+.sec-4-text{
+    line-height: 30px;
+}
+.sec-4-cont{
+    padding: 40px 0;
+}
+.sec-4-text h3{
+    color: #494f54;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sec-4-text p{
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.sec-4-row-c-t{
+    
+}
+.sec-4-row-c-t ul{
+    font-size: 16px;
+    color: #494f54;
+    display: flex;
+    gap: 35px;
+}
+.sec-4-row-c-t li{
+    cursor: pointer;
+    list-style: none;
+}
+.sec-4-row-c-t li:hover{
+    color: goldenrod;
+    list-style: none;
+}
+.filter-active{
+    color: goldenrod;
+}
+
+.dish-image{
+    margin: 20px;
+    align-items: center;
+    gap: 25px;
+    display: flex;
+}
+.dish-image img{
+    border-radius: 35px;
+    width: 13%;
+}
+.dish-name-and-price-ingredients{
+
+}
+.dish-name-and-price{
+    display: flex;
+    gap: 41%;
+}
+.dish-name-and-price a{
+    font-size: 15px;
+    color: white;
+    background: black;
+    padding-left: 1px;
+}
+.dish-name-and-price span{
+    color: goldenrod;
+    background: black;
+    padding: 4px 6px;
+}
+.ingredients{    
+    color: darkgray;
+}
