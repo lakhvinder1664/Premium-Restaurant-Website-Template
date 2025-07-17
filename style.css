@@ -148,8 +148,13 @@
     position: relative;
     
 }
-
-
+.sec-2-cont::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    inset: 0;
+    z-index: 0; 
+}
 .sec-2-cont{
     padding: 30px 0;
 }
