@@ -1,0 +1,13 @@
+@media (max-width:992px) {
+    .nav-button {
+    display: none;
+    }    
+
+   .navbar-expand-sm .navbar-nav{
+        display: none;
+    }
+    .nav-icon-bars {
+    display: block;
+    color: white;
+}
+}

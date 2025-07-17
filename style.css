@@ -44,6 +44,9 @@
     border: none;
     border-radius: 19px;
 }
+.nav-icon-bars{
+    display: none;
+}
 .sec-1-cont {
     height: 520px;
     background: url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/hero-bg.jpg') center/cover no-repeat;
@@ -54,8 +57,7 @@
     background: rgba(0, 0, 0, 0.5); 
     position: absolute;
     inset: 0;
-    z-index: 0; 
-}
+}                     kr lo cop
 .row-text {
     position: relative;
     z-index: 2;
@@ -106,40 +108,44 @@
     text-align: center;
 }
 .row-icon i{
-    width: 10%;
-    border-radius: 100px;
-    padding: 23px;
+        width: 60px;
+}
+.row-icon a {
+    border-radius: 50px;
+    padding: 25px 10px;
     background: goldenrod;
     color: white;
-    font-size: 23px;
+    font-size: 23px;              
     text-align: center;
     position: relative;
-    z-index: 1;
+    outline: 10px solid rgba(218, 165, 32, 0.426);
+   
 }
-.row-icon i::after{
-    content: "";
+.row-icon a::before{
     position: absolute;
+    content: '';
     width: 88px;
     height: 90px;
-    animation: pulsate-play-btn 2s ease-out infinite;
-    opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(218, 165, 32, 0.5); /* goldenrod with transparency */
-    top: -15%;
-    left: -15%;
-    background: transparent;
-    z-index: 0;
-}
-/* Change this */
-
+    border: 3px solid rgba(218, 165, 32, 95%);
+    animation: test 3s ease-in-out 1s infinite  ;
+    top: -5px;                                           
+    left: -5px;
+} 
 @keyframes test {
-  from { opacity: 1; }
-  to { opacity: 0.5; }
+  from { 
+    opacity: 1;
+    transform: scale(0.5);   
+ }
+  to { 
+    opacity: 0.5;                                 
+     transform: scale(1.1);
+ }
 }
 
-.row-icon i::after {
-  animation: test 1s infinite alternate;
-}
+/* .row-icon i::after {
+  
+} */
 
 /* section-2 */
 .sec-2-cont{
