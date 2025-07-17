@@ -153,15 +153,22 @@
     <div class="container">
         <div class="row sec-4-row-c-t">
             <div class="col-lg-12 d-flex justify-content-center">
-                <ul>
-                    <li class="filter-active">All</li>
-                    <li>Starter</li>
-                    <li>Salads</li>
-                    <li>Speciality</li>
+                <ul class="nav nav-tabs justify-content-center mb-4" id="menuTabs">
+                    <li class="nav-item">
+    <a class="nav-link sec-4-middle-text" data-toggle="tab" href="#all">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link sec-4-middle-text" data-toggle="tab" href="#starters">Starters</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link sec-4-middle-text" data-toggle="tab" href="#salads">Salads</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link sec-4-middle-text" data-toggle="tab" href="#specialty">Specialty</a>
+  </li>
                 </ul>
             </div>
         </div>
-
         <div class="row">
             <div class="col-lg-6">
                 <div class="dish-image">
@@ -237,11 +244,11 @@
             </div>
             <div class="col-lg-6">
                 <div class="dish-image">
-                    <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/spinach-salad.jpg" alt="">
+                    <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/mozzarella.jpg" alt="">
                     <div class="dish-name-and-price-ingredients">
                        <div class="dish-name-and-price">
                          <a href="">Greek Salad</a>
-                        <span>$5.95</span>
+                        <span>$9.95</span>
                        </div>
                         <div class="ingredients">Fresh spinach, crisp romaine, tomatoes, and Greek olives</div>
                     </div>
@@ -249,11 +256,11 @@
             </div>
             <div class="col-lg-6">
                 <div class="dish-image">
-                    <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/greek-salad.jpg" alt="">
+                    <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/mozzarella.jpg" alt="">
                     <div class="dish-name-and-price-ingredients">
                        <div class="dish-name-and-price">
                          <a href="">Spinach Salad</a>
-                        <span>$5.95</span>
+                        <span>$9.95</span>
                        </div>
                         <div class="ingredients">Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</div>
                     </div>
@@ -261,16 +268,17 @@
             </div>
             <div class="col-lg-6">
                 <div class="dish-image">
-                    <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/lobster-roll.jpg" alt="">
+                    <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/mozzarella.jpg" alt="">
                     <div class="dish-name-and-price-ingredients">
                        <div class="dish-name-and-price">
                          <a href="">Lobster Roll</a>
-                        <span>$9.95</span>
+                        <span>$12.95</span>
                        </div>
                         <div class="ingredients">Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</div>
                     </div>
                 </div>
             </div>
+           
             
         </div>
     </div>
@@ -281,3 +289,103 @@
 
 </body>
 </html>
+
+
+<!-- Menu Tabs -->
+<ul class="nav nav-tabs justify-content-center mb-4" id="menuTabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#all">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#starters">Starters</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#salads">Salads</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#specialty">Specialty</a>
+  </li>
+</ul>
+
+<!-- Menu Content -->
+<div class="tab-content">
+
+  <!-- All Tab -->
+  <div class="tab-pane fade show active" id="all">
+    <!-- Include all items if needed or JS-generated -->
+    <!-- Example: Starter -->
+    <div class="menu-item d-flex justify-content-between align-items-center mb-4">
+      <div class="d-flex align-items-center">
+        <img src="starter-1.jpg" class="rounded-circle mr-3" width="60" height="60" alt="">
+        <div>
+          <div class="dish-name-and-price">
+            <a href="#">Lobster Bisque</a>
+            <span>$5.95</span>
+          </div>
+          <p class="text-muted font-italic mb-0">Lorem, deren, trataro, filede, nerada</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starters Tab -->
+  <div class="tab-pane fade" id="starters">
+    <div class="menu-item d-flex justify-content-between align-items-center mb-4">
+      <div class="d-flex align-items-center">
+        <img src="starter-1.jpg" class="rounded-circle mr-3" width="60" height="60" alt="">
+        <div>
+          <div class="dish-name-and-price">
+            <a href="#">Lobster Bisque</a>
+            <span>$5.95</span>
+          </div>
+          <p class="text-muted font-italic mb-0">Lorem, deren, trataro, filede, nerada</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-item d-flex justify-content-between align-items-center mb-4">
+      <div class="d-flex align-items-center">
+        <img src="starter-2.jpg" class="rounded-circle mr-3" width="60" height="60" alt="">
+        <div>
+          <div class="dish-name-and-price">
+            <a href="#">Mozzarella Stick</a>
+            <span>$4.95</span>
+          </div>
+          <p class="text-muted font-italic mb-0">Lorem, deren, trataro, filede, nerada</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Salads -->
+  <div class="tab-pane fade" id="salads">
+    <div class="menu-item d-flex justify-content-between align-items-center mb-4">
+      <div class="d-flex align-items-center">
+        <img src="salad.jpg" class="rounded-circle mr-3" width="60" height="60" alt="">
+        <div>
+          <div class="dish-name-and-price">
+            <a href="#">Greek Salad</a>
+            <span>$6.50</span>
+          </div>
+          <p class="text-muted font-italic mb-0">Fresh vegetables with feta cheese</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Specialty -->
+  <div class="tab-pane fade" id="specialty">
+    <div class="menu-item d-flex justify-content-between align-items-center mb-4">
+      <div class="d-flex align-items-center">
+        <img src="specialty.jpg" class="rounded-circle mr-3" width="60" height="60" alt="">
+        <div>
+          <div class="dish-name-and-price">
+            <a href="#">Crab Cake</a>
+            <span>$7.95</span>
+          </div>
+          <p class="text-muted font-italic mb-0">Served with tartar sauce and lemon</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
