@@ -221,11 +221,12 @@ section.sec-3 {
 .card-contain {
     padding: 25px;
     background: #0e0f0f;
+    transition: 0.5s ease;
 }
-.card-contain span{
+.card-contain h2 {
     color: goldenrod;
-    font-weight: 700;
     font-size: 35px;
+    font-weight: 700;
 }
 .card-contain h3{
     font-weight: 600;
@@ -235,6 +236,15 @@ section.sec-3 {
 .card-contain-para{
     color: slategrey;
     font-size: 13px;
+}
+.card-contain:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.card-contain:hover h2,
+.card-contain:hover h3,
+.card-contain:hover p{
+    color: black;
 }
 
 /* section-4 */
@@ -337,7 +347,7 @@ section.sec-4 {
     color: white;
     font-size: 18px;
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 0px 8px 0 0px;
 }
 
