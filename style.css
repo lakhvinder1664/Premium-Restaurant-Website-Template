@@ -32,6 +32,7 @@
 .nav-text-center{ 
     gap: 25px;
 } 
+
 .nav-button a{
     padding: 2px 20px;
     font-size: 15px;
@@ -57,7 +58,7 @@
     background: rgba(0, 0, 0, 0.5); 
     position: absolute;
     inset: 0;
-}                     kr lo cop
+}           
 .row-text {
     position: relative;
     z-index: 2;
@@ -213,6 +214,15 @@ section.sec-3 {
     font-weight: 500;
     font-size: 14px;
 }
+/* .sec-3-text h3::after {
+    content: "......................................................................" "...................................................................." "....................................................................";
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+    color:  color-mix(in srgb, var(--default-color), transparent 60%);
+} */
 .sec-3-text p{
     color: goldenrod;
     font-weight: 700;
@@ -268,10 +278,6 @@ section.sec-4 {
     font-weight: 700;
     font-size: 36px;
 }
-
-/* .sec-4-row-c-t{
-    
-} */
    
 .sec-4-row-c-t ul{
     border-bottom: none;
@@ -292,6 +298,10 @@ section.sec-4 {
 .sec-4-middle-text {
     border: 0;
     color: white;
+    background: #55535300 !important;
+}
+a.nav-link.sec-4-middle-text.active {
+    color: goldenrod;
 }
 .sec-4-middle-text:hover {
     color: goldenrod;
@@ -350,6 +360,9 @@ section.sec-4 {
     text-decoration: none !important;
     padding: 0px 8px 0 0px;
 }
+.dish-name-and-price a:hover{
+    color: goldenrod;
+}
 
 .dish-name-and-price span {
      background: #000;
@@ -362,4 +375,56 @@ section.sec-4 {
 .ingredients {
     font-size: 14px;
     color: #aaa;
+}
+
+/* section 5 */
+section.sec-5 {
+    padding: 60px 0;
+    background: #161616;
+}
+.sec-5-text{
+    line-height: 30px;
+}
+.sec-5-cont{
+    padding: 40px 0;
+}
+.sec-5-text h3{
+    color: #494f54;
+    font-weight: 500;
+    font-size: 14px;
+}
+a.nav-link.sec-5-middle-text.active {
+    background: goldenrod;
+    color: black;
+}
+.nav-item a{
+    padding: 14px;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+.nav-item a:hover{
+    color: white;
+}
+.nav-tabs {
+    border-bottom: none !important;
+}
+.sec-5-text p{
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 36px;
+}
+.sec-5-right-corner-image img {
+  margin: 0 45px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.sec-5-right-txt h3{
+    font-size: 24px;
+    color: white;
+}
+.sec-5-right-txt p{
+    font-size: 15px;
+    color: #6a6a6a;
 }
