@@ -638,3 +638,26 @@ section.sec-8 {
     font-weight: 700;
     font-size: 36px;
 }
+
+.sec-8-image {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.no-gutters {
+      margin-right: 0;
+      margin-left: 0;
+}
+.sec-8-image img {
+    transition: transform 0.4s ease;    
+    border: 2px solid #161616;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.sec-8-image:hover img {
+  transform: scale(1.1);
+}
+ 
