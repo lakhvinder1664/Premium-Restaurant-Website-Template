@@ -615,3 +615,26 @@ form button:hover {
   font-size: 14px;
   color: #aaa;
 }
+
+
+/* section 8 */
+section.sec-8 {
+    padding: 60px 0;
+    background: #161616;
+}
+.sec-8-text{
+    line-height: 30px;
+}
+.sec-8-cont{
+    padding: 40px 0;
+}
+.sec-8-text h3{
+    color: #494f54;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sec-8-text p {
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 36px;
+}
