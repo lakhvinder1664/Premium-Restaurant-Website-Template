@@ -428,3 +428,55 @@ a.nav-link.sec-5-middle-text.active {
     font-size: 15px;
     color: #6a6a6a;
 }
+
+/* section -6 */
+
+.sec-6{
+
+}
+.sec-6-cont{
+    height: 545px;
+    background: url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/events-bg.jpg') center/cover no-repeat;
+    position: relative;
+}
+.sec-6-cont::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    inset: 0;
+    z-index: 0; 
+}
+.sec-6-cont{
+    padding: 70px 0;
+}
+.sec-6-right-text{
+    list-style: none;
+}
+.sec-6-right-text h3{
+    color: white;
+    font-size: 35px;
+}
+.sec-6-right-text .p-itlic{
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+}
+.sec-6-right-text li{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.sec-6-right-text i{
+    color: goldenrod;
+}
+.sec-6-right-text span{
+    font-size: 15px;
+    color: white;
+}
+.sec-6-right-text p{
+    font-size: 16px;
+    color: white;
+}
+.sec-6-left-image img{
+
+}
