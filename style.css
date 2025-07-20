@@ -566,7 +566,7 @@ form button:hover {
 }
 
 .testimonial-box {
-    background-color: #111;
+    background-color: #161616;
     border-radius: 10px;
     margin-bottom: 0px;
     color: #ccc;
@@ -574,7 +574,7 @@ form button:hover {
 
 .testimonial-box-text { 
     border-radius: 10px;
-    padding: 8px 22px 27px 13px;
+    padding: 13px 22px 27px 13px;
     background: #211f1f;
  }
 
@@ -582,10 +582,11 @@ form button:hover {
   font-style: italic;
   position: relative;
   line-height: 1.7;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .testimonial-box .quote i {
+  font-size: 17px;
   color: #b38b59;
   margin: 0 5px;
 }
