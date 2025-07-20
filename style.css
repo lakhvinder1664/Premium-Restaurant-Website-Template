@@ -109,13 +109,13 @@ nav.navbar.navbar-expand-sm.nav-bg {
 
 .row-text{
     align-items: center;
-    padding: 124px 65px;
+    padding: 138px 73px;
 }
 .row-icon{
     text-align: center;
 }
 .row-icon i{
-        width: 60px;
+    width: 60px;
 }
 .row-icon a {
     border-radius: 50px;
