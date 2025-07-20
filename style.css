@@ -481,3 +481,80 @@ a.nav-link.sec-5-middle-text.active {
 .sec-6-left-image img{
 
 }
+
+
+/* section 7 */
+section.sec-7 {
+    padding: 60px 0;
+    background: #161616;
+}
+.sec-7-text{
+    line-height: 30px;
+}
+.sec-7-cont{
+    padding: 40px 0;
+}
+.sec-7-text h3{
+    color: #494f54;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sec-7-text p {
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 36px;
+}
+form {
+  padding: 20px;
+}
+
+form .form-control {
+  margin-bottom: 20px;
+  border: 1px solid #403d37;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 0 !important;
+  background-color: #161616;
+}
+
+form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.25);
+}
+textarea.form-control {
+    height: 60px !important;
+}
+
+form button {
+  background: #161616 !important;
+  color: white;
+  padding: 12px 50px !important;
+  border: 2px solid goldenrod !important;
+  border-radius: 34px !important;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: goldenrod !important;
+  cursor: pointer;
+}
+
+.sec-7-bottom-text{
+    line-height: 30px;
+}
+.sec-7-bottom-cont{
+    padding-bottom: 3%;
+    padding-top: 8%;
+}
+.sec-7-bottom-text h3{
+    color: #494f54;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sec-7-bottom-text p {
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 36px;
+}
