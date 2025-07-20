@@ -1,7 +1,7 @@
-
-/* Responsive CSS using Bootstrap 4 breakpoints */
-
-/* Extra small devices (portrait phones, less than 576px) */
+/* =======================
+   Extra Small Devices
+   (phones, <576px)
+======================= */
 @media (max-width: 575.98px) {
   .nav-left-name {
     width: 70%;
@@ -82,3 +82,212 @@
   }
 }
 
+/* =======================
+   Small Devices
+   (landscape phones, tablets, 576px - 767.98px)
+======================= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-left-name {
+    font-size: 28px;
+    width: 60%;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .nav-icon-bars {
+    display: block;
+    font-size: 26px;
+  }
+
+  .row-text {
+    padding: 50px 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bg-button {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .bg-button a {
+    width: 50%;
+  }
+
+  .sec-2-row-cont,
+  .sec-6-row-cont {
+    flex-direction: column;
+  }
+
+  .sec-5 .nav-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .testimonial-box {
+    margin-bottom: 40px;
+  }
+
+  .footer .col-lg-4,
+  .footer .col-lg-2 {
+    margin-bottom: 25px;
+  }
+}
+
+/* =======================
+   Medium Devices
+   (tablets, 768px - 991.98px)
+======================= */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-left-name {
+    font-size: 30px;
+  }
+
+  .nav-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .row-text {
+    padding: 60px 50px;
+    text-align: center;
+  }
+
+  .bg-button {
+    gap: 20px;
+  }
+
+  .bg-button a {
+    width: 40%;
+  }
+
+  .sec-2-left-text,
+  .sec-6-right-text {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .sec-5 .nav-tabs {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sec-5 .col-lg-3 {
+    margin-bottom: 20px;
+  }
+
+  .sec-7 form .col-md-6,
+  .sec-7 form .col-lg-4 {
+    padding: 0 10px;
+  }
+
+  .testimonial-box {
+    margin-bottom: 30px;
+  }
+
+  .sec-10-left-and-right {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .col-lg-4,
+  .footer .col-lg-2 {
+    margin-bottom: 20px;
+  }
+}
+/* =======================
+   Large Devices
+   (desktops, 992px - 1199.98px)
+======================= */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-left-name {
+    font-size: 32px;
+  }
+
+  .nav-button {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+
+  .row-text {
+    padding: 70px 60px;
+  }
+
+  .bg-button a {
+    width: 35%;
+  }
+
+  .sec-5 .col-lg-3 {
+    margin-bottom: 15px;
+  }
+
+  .sec-5 .nav-tabs {
+    justify-content: center;
+  }
+
+  .testimonial-box {
+    margin-bottom: 20px;
+  }
+
+  .sec-7 form .col-md-6,
+  .sec-7 form .col-lg-4 {
+    padding: 0 20px;
+  }
+
+  .sec-10-left-and-right {
+    gap: 30px;
+  }
+
+  .footer .col-lg-4,
+  .footer .col-lg-2 {
+    margin-bottom: 15px;
+  }
+}
+
+/* =======================
+   Extra Large Devices
+   (large desktops, ≥1200px)
+======================= */
+@media (min-width: 1200px) {
+  .nav-left-name {
+    font-size: 36px;
+  }
+
+  .nav-button {
+    padding: 12px 30px;
+    font-size: 18px;
+  }
+
+  .row-text {
+    padding: 80px 100px;
+  }
+
+  .bg-button a {
+    width: auto;
+    padding: 12px 40px;
+  }
+
+  .sec-5 .col-lg-3 {
+    margin-bottom: 10px;
+  }
+
+  .testimonial-box {
+    margin-bottom: 10px;
+  }
+
+  .sec-7 form .col-md-6,
+  .sec-7 form .col-lg-4 {
+    padding: 0 25px;
+  }
+
+  .sec-10-left-and-right {
+    gap: 40px;
+  }
+
+  .footer .col-lg-4,
+  .footer .col-lg-2 {
+    margin-bottom: 10px;
+  }
+}
