@@ -441,12 +441,13 @@ a.nav-link.sec-5-middle-text.active {
 }
 .sec-6-cont::before {
     content: "";
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgb(0 0 0 / 72%);
     position: absolute;
     inset: 0;
     z-index: 0; 
 }
 .sec-6-cont{
+    text-align: justify;
     padding: 70px 0;
 }
 .sec-6-right-text{
