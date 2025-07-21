@@ -54,13 +54,25 @@ section.sec-3 {
   }
 
 section.sec-4 {
-    padding: 60px 0;
+    padding: 0px 0;
     background: #211f1f;
 }
 .sec-4-row-c-t ul {
     gap: 14px;
-    margin: 83px 0;
     padding: 0px 0;
+}
+li {
+    margin: 0 0 !important;
+}
+.sec-4-cont {
+    padding: 20px 0;
+}
+section.sec-5 {
+    padding: 0 0;
+    background: #161616;
+}
+.sec-5-right-corner-image img {
+    margin: 0 0;
 }
   .sec-2-left-text,
   .sec-6-right-text {
