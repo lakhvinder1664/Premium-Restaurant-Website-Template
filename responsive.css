@@ -24,7 +24,7 @@
   .row-text {
     flex-direction: column;
     text-align: center;
-    padding: 70px 15px;
+    padding: 85px 0px;
   }
   .bg-text {
     margin-bottom: 30px;
@@ -41,6 +41,9 @@
   .row-icon {
     margin-top: 30px;
   }
+  .sec-1-cont {
+    height: 580px;
+}
   .sec-2-cont {
     height: 845px;
 }
@@ -267,7 +270,7 @@ section.sec-10 {
 }
 
 /*Extra Large Devices (≥1200px)*/
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .nav-left-name {
     font-size: 36px;
   }
