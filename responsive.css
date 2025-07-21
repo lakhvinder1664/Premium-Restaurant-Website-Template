@@ -44,13 +44,16 @@
   .sec-2-cont {
     height: 909px;
 }
+section.sec-3 {
+    padding: 0 0 15% 0;
+    background: #161616;
+}
   .sec-2-row-cont,
   .sec-6-row-cont {
     flex-direction: column;
   }
 
 section.sec-4 {
-    margin: -109% 0;
     padding: 60px 0;
     background: #211f1f;
 }
