@@ -1,7 +1,5 @@
 
-/* =======================
-   Extra Small Devices (<576px)
-======================= */
+/* Extra Small Devices (<576px)*/
 @media (max-width: 575.98px) {
   .nav-left-name {
     width: 70%;
@@ -13,6 +11,11 @@
   .nav-button {
     display: none;
   }
+  nav.navbar.navbar-expand-sm.nav-bg {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
   .nav-icon-bars {
     display: block;
     color: white;
@@ -21,7 +24,7 @@
   .row-text {
     flex-direction: column;
     text-align: center;
-    padding: 40px 15px;
+    padding: 70px 15px;
   }
   .bg-text {
     margin-bottom: 30px;
@@ -38,10 +41,24 @@
   .row-icon {
     margin-top: 30px;
   }
+  .sec-2-cont {
+    height: 909px;
+}
   .sec-2-row-cont,
   .sec-6-row-cont {
     flex-direction: column;
   }
+
+section.sec-4 {
+    margin: -109% 0;
+    padding: 60px 0;
+    background: #211f1f;
+}
+.sec-4-row-c-t ul {
+    gap: 14px;
+    margin: 83px 0;
+    padding: 0px 0;
+}
   .sec-2-left-text,
   .sec-6-right-text {
     order: 2;
@@ -82,9 +99,7 @@
   }
 }
 
-/* =======================
-   Small Devices (576px - 767.98px)
-======================= */
+/* Small Devices (576px - 767.98px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .nav-left-name {
     font-size: 28px;
@@ -126,9 +141,7 @@
   }
 }
 
-/* =======================
-   Medium Devices (768px - 991.98px)
-======================= */
+/* Medium Devices (768px - 991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .nav-left-name {
     font-size: 30px;
@@ -176,9 +189,7 @@
   }
 }
 
-/* =======================
-   Large Devices (992px - 1199.98px)
-======================= */
+/* Large Devices (992px - 1199.98px)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .nav-left-name {
     font-size: 32px;
@@ -215,9 +226,7 @@
   }
 }
 
-/* =======================
-   Extra Large Devices (≥1200px)
-======================= */
+/*Extra Large Devices (≥1200px)*/
 @media (min-width: 1200px) {
   .nav-left-name {
     font-size: 36px;
