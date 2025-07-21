@@ -1,0 +1,60 @@
+
+/*  animation */
+
+@keyframes bg-text{
+  from{
+    transform: translateY(91px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* section 1 */
+.bg-text h3{
+    animation: bg-text 2s ease-in-out 0.25s  normal forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.bg-text p{
+    animation: bg-text 3s ease-in-out 0.25s  normal forwards;
+}
+.bg-button{
+    animation: bg-text 4s ease-in-out 0.25s  normal forwards;
+}
+
+/* section 2 */
+@keyframes sec-2{
+  from{
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.sec-2-row-cont{
+    animation: sec-2 3s ease-in-out 0.25s  normal forwards;
+}
+
+
+/* section 3 */
+@keyframes sec-2{
+  from{
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}  
+
+.sec-3-cont{
+     animation: sec-2 2s ease-in-out 0.25s  normal forwards;
+}
+.card-contain{
+    animation: sec-2 3s ease-in-out 0.25s  normal forwards;   
+}
