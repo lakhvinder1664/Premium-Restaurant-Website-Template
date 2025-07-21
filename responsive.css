@@ -119,6 +119,14 @@ button.btn.btn-primary.px-4 {
   .sec-7 form .col-lg-4 {
     padding: 0 15px;
   }
+  section.sec-9 {
+    padding: 0 0;
+    background: black;
+}
+section.sec-10 {
+    padding: 1px 0;
+    background: #161616;
+}
   .testimonial-box {
     margin-bottom: 30px;
   }
