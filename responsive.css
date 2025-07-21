@@ -74,6 +74,23 @@ section.sec-5 {
 .sec-5-right-corner-image img {
     margin: 0 0;
 }
+.sec-6-cont {
+    height: 769px;
+    background: url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/events-bg.jpg') center/cover no-repeat;
+    position: relative;
+    text-align: justify;
+    padding: 25px 0;
+}
+section.sec-7 {
+    padding: 20px 0;
+    background: #161616;
+}
+.sec-7-cont {
+    padding: 0px 0;
+}
+button.btn.btn-primary.px-4 {
+    width: 55% !important;
+}
   .sec-2-left-text,
   .sec-6-right-text {
     order: 2;
