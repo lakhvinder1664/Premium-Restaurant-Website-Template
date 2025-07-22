@@ -29,6 +29,14 @@
   .bg-text {
     margin-bottom: 30px;
   }
+  span {
+    font-size: 57px;
+    position: relative;
+    top: -5px;
+  }
+  .bg-text p {
+    font-size: 25px;
+  }
   .bg-button {
     justify-content: center;
     flex-direction: column;
