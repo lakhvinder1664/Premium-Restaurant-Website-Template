@@ -36,7 +36,7 @@
   }
 }
 .sec-2-row-cont{
-    animation: sec-2 3s ease-in-out 0.25s  normal forwards;
+    animation: sec-2 1s ease-in-out 0.25s  normal forwards;
 }
 
 
@@ -51,10 +51,20 @@
     opacity: 1;
   }
 }  
+@keyframes card-contain{
+  from{
+    transform: scaleY(20px);
+    opacity: 0;
+  }
+  to{
+    transform: scaleY(0px);
+    opacity: 1;
+  }
+}  
 
 .sec-3-cont{
      animation: sec-2 2s ease-in-out 0.25s  normal forwards;
 }
 .card-contain{
-    animation: sec-2 3s ease-in-out 0.25s  normal forwards;   
+    animation: card-contain 2s ease-in-out 0.25s  normal forwards;   
 }
