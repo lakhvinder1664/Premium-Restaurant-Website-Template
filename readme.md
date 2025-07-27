@@ -1,6 +1,6 @@
 # 🍽️ Restaurantly - Premium Restaurant Website
 
-![Showcase](https://i.imgur.com/J5Q8b0h.gif)
+![Showcase](https://bootstrapmade.com/content/demo/Restaurantly/assets/img/about.jpg)
 
 A high-performance restaurant website template with elegant animations and responsive design.
 
