@@ -4,12 +4,13 @@
 
 A high-performance restaurant website template with elegant animations and responsive design.
 
-## ✨ Features
-- **Interactive menu** with category filtering
-- **Online reservation system** with form validation
-- **Performance optimized** (96/100 Lighthouse)
-- **Responsive layout** (6 breakpoints)
-- **CSS animations** for enhanced UX
+## ✨ Key Page Highlights
+- 🎥 **Hero Section** with video background and CTA buttons
+- 🍣 **Interactive Menu** with tab-based filtering
+- 📅 **Reservation System** with form validation
+- 👨‍🍳 **Team Showcase** with hover effects
+- 📍 **Google Maps Integration**
+- 📱 **Fully Responsive** (mobile-first design)
 
 ## 🛠️ Tech Stack
 
