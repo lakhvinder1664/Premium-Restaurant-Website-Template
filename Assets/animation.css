@@ -53,11 +53,11 @@
 }  
 @keyframes card-contain{
   from{
-    transform: scaleY(20px);
+    transform: translateY(90px);
     opacity: 0;
   }
   to{
-    transform: scaleY(0px);
+    transform: translateY(0px);
     opacity: 1;
   }
 }  
@@ -67,4 +67,49 @@
 }
 .card-contain{
     animation: card-contain 2s ease-in-out 0.25s  normal forwards;   
+}
+
+/* section 4 */
+@keyframes sec-4-cont{
+  from{
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}  
+.sec-4-cont{
+  animation: card-contain 2s ease-in-out 0.25s  normal forwards;
+}
+
+
+@keyframes tab-content{
+  from{
+    transform: translateY(90px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}  
+.tab-content{
+  animation: tab-content 2s ease-in-out 0.25s  normal forwards;
+}
+
+/* section 5 */
+@keyframes tab-content{
+  from{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.sec-5-cont{
+  animation: card-contain 2s ease-in-out 0.25s  normal forwards;
 }
