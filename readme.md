@@ -12,10 +12,17 @@ A high-performance restaurant website template with elegant animations and respo
 - **CSS animations** for enhanced UX
 
 ## 🛠️ Tech Stack
-- **Frontend**: Bootstrap 4.6, jQuery 3.7
-- **Styling**: Custom CSS with animations
-- **Icons**: Font Awesome 6.7
-- **Build**: npm scripts
+
+<div align="center">
+
+![Bootstrap](https://img.shields.io/badge/bootstrap-4.6-%23563D7C?logo=bootstrap&style=flat)
+![jQuery](https://img.shields.io/badge/jQuery-3.7-%230769AD?logo=jquery&style=flat)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-6.7-%23338AF1?logo=fontawesome&style=flat)
+![CSS3](https://img.shields.io/badge/CSS3-3-%231572B6?logo=css3&style=flat)
+![HTML5](https://img.shields.io/badge/HTML5-5-%23E34F26?logo=html5&style=flat)
+
+</div>
+
 
 ## 🚀 Quick Start
 ```bash
