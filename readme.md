@@ -10,18 +10,18 @@
 <div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
 
 <div>
-  <p><strong>Dynamic Menu</strong></p>
   <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/menu/lobster-bisque.jpg" style="border-radius: 8px; width:100%; max-width:280px; height:auto;" alt="Lobster Bisque">
+  <p><strong>Dynamic Menu</strong></p>
 </div>
 
 <div>
-  <p><strong>Daily Specials</strong></p>
   <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/specials-1.png" style="border-radius: 8px; width:100%; max-width:280px; height:auto;" alt="Chef's Special">
+  <p><strong>Daily Specials</strong></p>
 </div>
 
 <div>
-  <p><strong>Events</strong></p>
   <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/events-slider/events-slider-3.jpg" style="border-radius: 8px; width:100%; max-width:280px; height:auto;" alt="Private Event">
+  <p><strong>Events</strong></p>
 </div>
 
 </div>
