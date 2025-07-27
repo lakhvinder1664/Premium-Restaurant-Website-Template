@@ -51,7 +51,7 @@
 <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/gallery/gallery-2.jpg" style="border-radius: 8px; width:100%; height:auto;" alt="Dining Area">
 
 <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/gallery/gallery-3.jpg" style="border-radius: 8px; width:100%; height:auto;" alt="Food Presentation">
-
+<p><em>Our elegant dining atmosphere</em></p>
 </div>
 
 ## 🚀 Quick Start
