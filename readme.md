@@ -42,7 +42,7 @@
 
 </div>
 
-## 🎨 Design Gallery
+## 🎨 Elegant dining atmosphere
 
 <div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin: 30px 0;">
 
@@ -51,7 +51,6 @@
 <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/gallery/gallery-2.jpg" style="border-radius: 8px; width:100%; height:auto;" alt="Dining Area">
 
 <img src="https://bootstrapmade.com/content/demo/Restaurantly/assets/img/gallery/gallery-3.jpg" style="border-radius: 8px; width:100%; height:auto;" alt="Food Presentation">
-<p><em>Our elegant dining atmosphere</em></p>
 </div>
 
 ## 🚀 Quick Start
