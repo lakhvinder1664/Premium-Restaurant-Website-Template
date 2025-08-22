@@ -38,8 +38,6 @@
 
 <img src="https://img.icons8.com/color/96/000000/html-5.png" width="60" style="max-width:100%; height:auto;" alt="HTML5" title="HTML5">
 
-<img src="https://fontawesome.com/images/favicon.png" width="50"> style="max-width:100%; height:auto;" alt="Font Awesome" title="Font Awesome 6.7">
-
 </div>
 
 ## 🎨 Elegant dining atmosphere
