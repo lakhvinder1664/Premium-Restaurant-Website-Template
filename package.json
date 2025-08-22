@@ -1,4 +1,13 @@
 {
+  "name": "@lakhvinder1664/xsportsoft",
+  "version": "1.0.0",
+  "description": "Premium restaurant template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Lakhvinder Singh",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.1.0"
   }
