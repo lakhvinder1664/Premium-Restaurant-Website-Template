@@ -934,6 +934,7 @@ button.btn.btn-primary.px-4 {
   border-radius: 5px 0 0 5px;
   padding: 10px 15px;
   box-shadow: none;
+  margin: 15px 0;
 }
 
 .newsletter-form .custom-input::placeholder {
