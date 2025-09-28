@@ -54,6 +54,6 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/restaurantly.git
+git clone https://github.com/lakhvinde1664/restaurantly.git
 cd restaurantly
 # Open index.html in browser
